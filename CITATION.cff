@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "DRYAS: detection limits for far-field earthquake signals in tree-ring networks"
+authors:
+  - family-names: Kurosawa
+    given-names: Isao
+    affiliation: "IVXA, Japan"
+version: 1.0.0
+date-released: 2026-09-06
+repository-code: "https://github.com/ISAO9/DRYAS"
+license: MIT

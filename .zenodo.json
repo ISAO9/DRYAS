@@ -1,0 +1,9 @@
+{
+  "title": "DRYAS: detection limits for far-field earthquake signals in tree-ring networks (code, synthetic testbed and pre-registration record)",
+  "upload_type": "software",
+  "creators": [{"name": "Kurosawa, Isao", "affiliation": "IVXA, Japan"}],
+  "description": "Analysis pipeline (scripts 001-010) for the pre-registered injection-recovery test of the Japanese ITRDB tree-ring array against the USGS earthquake catalogue, including the synthetic testbed with embedded suppressions, the automatically generated pre-registration record, and the derived tables. Tree-ring data are the public ITRDB files hosted by NOAA NCEI (cited by dataset DOI in the paper) and are re-downloaded by script 001.",
+  "keywords": ["dendroseismology", "tree rings", "superposed epoch analysis", "detection limit", "injection test", "Japan", "ITRDB"],
+  "license": "MIT",
+  "access_right": "open"
+}

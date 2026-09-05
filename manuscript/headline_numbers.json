@@ -1,0 +1,20 @@
+{
+  "f_measured": 1.0,
+  "n_pairs_004": 923,
+  "n_detected_004": 47,
+  "auc_004": 0.8754250461478675,
+  "base_rate_004": 0.050920910075839654,
+  "Af_pct_1707_NK-C": 9.2,
+  "Af_pct_1854_NK-D": 21.9,
+  "Af_pct_1854_NK-B": 24.2,
+  "Af_pct_1891_NOBI": 13.8,
+  "Af_pct_1896_JT-N": 41.4,
+  "Af_pct_1923_SAGAMI": 19.8,
+  "Af_pct_1933_JT-N": 42.8,
+  "Af_pct_1944_NK-C": 5.9,
+  "Af_pct_1946_NK-B": 0.0,
+  "Af_pct_2011_JT-M": 0.0,
+  "Af_pct_2024_NOTO": 16.2,
+  "primary_z": 0.3150819651870072,
+  "primary_p": 0.0
+}

@@ -1,0 +1,53 @@
+{
+  "ring_width": {
+    "selected": "spline100",
+    "rule": "reject if median preservation(A=0.35) < 0.7; pick highest median SNR among survivors",
+    "table": [
+      {
+        "method": "negexp",
+        "preservation": 0.9783,
+        "leakage": 0.0038,
+        "snr": 0.9023,
+        "n_trials": 215,
+        "passes": true
+      },
+      {
+        "method": "rcs",
+        "preservation": 1.005,
+        "leakage": 0.0002,
+        "snr": 0.5297,
+        "n_trials": 218,
+        "passes": true
+      },
+      {
+        "method": "sfrcs",
+        "preservation": 1.0194,
+        "leakage": 0.002,
+        "snr": 0.4983,
+        "n_trials": 223,
+        "passes": true
+      },
+      {
+        "method": "spline100",
+        "preservation": 0.9331,
+        "leakage": 0.0105,
+        "snr": 1.0768,
+        "n_trials": 219,
+        "passes": true
+      },
+      {
+        "method": "spline67",
+        "preservation": 0.9585,
+        "leakage": 0.0067,
+        "snr": 1.0446,
+        "n_trials": 218,
+        "passes": true
+      }
+    ]
+  },
+  "max_density": {
+    "selected": "spline100",
+    "rule": "inherited from ring_width (no injection test for MXD)",
+    "table": []
+  }
+}

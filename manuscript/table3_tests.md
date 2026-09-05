@@ -1,0 +1,11 @@
+**Table 3. Pre-specified primary test and exploratory tests against two nulls.**
+
+| Test | Pairs | Observed | Year-shift null median [5–95%] | p (year-shift) | p (independent years) |
+|---|---|---|---|---|---|
+| fraction pct20 (index) | 175 | 0.315 | 0.131 [0.036, 0.230] | 0.0 | 0.074 |
+| fraction pct40 (index) | 175 | 0.165 | 0.004 [0.000, 0.041] | 0.0 | 0.038 |
+| fraction schw25 (index) | 175 | 0.135 | 0.014 [0.000, 0.104] | 0.017 | 0.11 |
+| SEA years 0-1 (index, p>=0.5) | 175 | 0.874 | 1.006 [0.962, 1.090] | 0.0 | 0.0 |
+| SEA years 0-1 (raw, p>=0.5) | 175 | 0.87 | 1.015 [0.929, 1.063] | 0.0 | 0.0 |
+| Lloret resistance median (p>=0.2) | 256 | 0.937 | 0.994 [0.934, 1.091] | 0.067 | 0.0 |
+| lag-tolerant min gc median (p>=0.2) | 256 | -0.182 | -0.143 [-0.200, -0.095] | 0.183 | 0.0 |

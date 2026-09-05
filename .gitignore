@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+data/raw/
+manuscript/figures_png/
+manuscript/_assembled.md
+manuscript/*.docx
+*.DS_Store
+HANDOFF.md
+manuscript/DRYAS_manuscript_v[1-5].md
+manuscript/refs_to_verify_13.md
+manuscript/references_verified.md
