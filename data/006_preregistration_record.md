@@ -6,12 +6,12 @@ Generated: 2026-09-05T00:44:44.134377+00:00
 
 | # | Rule (declared before the result) | Declared in | Outcome | Evidence |
 |---|---|---|---|---|
-| R1 | Standardization methods with median injected-signal preservation (A=0.35) < 0.70 are rejected; among survivors pick highest median SNR | 002 design (HANDOFF §7), before real run | all 5 methods passed; spline100 selected (SNR 1.08) | 002_selection.json (2026-09-04T14:18:13.857487+00:00) |
+| R1 | Standardization methods with median injected-signal preservation (A=0.35) < 0.70 are rejected; among survivors pick highest median SNR | 002 design, project record before the real-data run | all 5 methods passed; spline100 selected (SNR 1.08) | 002_selection.json (2026-09-04T14:18:13.857487+00:00) |
 | R2 | Usable years for event detection = living-tree depth >= 10 (EPS >= 0.85 gate kept only as climate-quality flag) | 002 v2, after seeing EPS cut Yakushima | YAKU-M usable 644-2005 | chronologies.parquet |
 | R3 | Tree-response prior: logistic in log10 PGA (x0=2.0, k=5.5) declared as placeholder to be re-fitted | 003 design | fitted x0 at bound (4.5), AUC 0.46 -> no relation | 004_response_calibration.json (2026-09-05T00:42:34.017458+00:00) |
-| R4 | If AUC < 0.6 and Hokkaido SEA (incl. 1952) p > 0.05 after bug fixes, the project becomes a detection-limit study | HANDOFF §7d, before 004 rerun | condition met (AUC 0.46, all SEA p >= 0.15) | 004 SUMMARY, 004a/004b |
+| R4 | If AUC < 0.6 and Hokkaido SEA (incl. 1952) p > 0.05 after bug fixes, the project becomes a detection-limit study | project record, declared before the 004 rerun | condition met (AUC 0.46, all SEA p >= 0.15) | 004 SUMMARY, 004a/004b |
 | R5 | Upper bound A_UB = (z_obs + 1.645)/slope with slope from injection at the measured f; array stack equal-weight | 005 design | reported in 005/006 | 005_upper_bounds_array.parquet (2026-09-05T00:43:48.636701+00:00) |
-| R6 | Growing-season effective year (month >= 8 -> next ring) adopted as baseline before seeing its effect | 006 design (HANDOFF §7f) | see ablation 'timing' below | 006_ablations.parquet |
+| R6 | Growing-season effective year (month >= 8 -> next ring) adopted as baseline before seeing its effect | 006 design, project record | see ablation 'timing' below | 006_ablations.parquet |
 
 ## Ablation summary (array bounds on site-mean growth loss A x f)
 

@@ -17,3 +17,5 @@ manuscript/DRYAS_manuscript_v*.md
 manuscript/highlights.md
 manuscript/supplementary.md
 manuscript/submission/
+manuscript/*.zip
+*.zip
