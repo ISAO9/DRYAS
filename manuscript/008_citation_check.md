@@ -1,4 +1,4 @@
-# 008 citation check — DRYAS_manuscript_v6.md vs references_elsevier_harvard.md
+# 008 citation check — DRYAS_manuscript_v7.md vs references_elsevier_harvard.md
 
 In-text citations found: 48; reference entries: 43
 
@@ -14,6 +14,3 @@ In-text citations found: 48; reference entries: 43
 
 ## Placeholders still in the manuscript
 - 【 】
-- 【DOI】
-- 【Funding statement.】
-- 【repository】
